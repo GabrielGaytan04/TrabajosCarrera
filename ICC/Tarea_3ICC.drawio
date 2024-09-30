@@ -1,11 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="24.7.16">
   <diagram name="Página-1" id="abuLJBTFDbg1C9s6nDSt">
-    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pNPqIXBsP1YfmATv3oyi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="40" width="120" height="80" as="geometry" />
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pNPqIXBsP1YfmATv3oyi-4" target="pNPqIXBsP1YfmATv3oyi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-4" value="Inicio del programa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313.75" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pNPqIXBsP1YfmATv3oyi-6" target="pNPqIXBsP1YfmATv3oyi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-6" value="Solicitar al usuario el numero de personas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="247.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pNPqIXBsP1YfmATv3oyi-16" target="pNPqIXBsP1YfmATv3oyi-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-16" value="Se registra la entrada en una variable del tipo int n." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="248.75" y="150" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pNPqIXBsP1YfmATv3oyi-18" target="pNPqIXBsP1YfmATv3oyi-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNPqIXBsP1YfmATv3oyi-18" target="pNPqIXBsP1YfmATv3oyi-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-18" value="Mientras n &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="271.88" y="270" width="208.12" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-20" value="Solicitar calificación" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-22" value="Imprimir -1 en la pantalla&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-24" value="Falso" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pNPqIXBsP1YfmATv3oyi-25" value="Verdadero" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="330" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
