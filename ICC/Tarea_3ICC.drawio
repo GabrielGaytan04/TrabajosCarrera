@@ -37,7 +37,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pNPqIXBsP1YfmATv3oyi-18" value="Mientras n &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="271.88" y="270" width="208.12" height="180" as="geometry" />
+          <mxGeometry x="269.69" y="270" width="208.12" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pNPqIXBsP1YfmATv3oyi-20" value="Solicitar calificación" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
