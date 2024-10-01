@@ -1,0 +1,21 @@
+Pseudo-código 
+
+Nota:
+En el diagrama de flujo se me escapó considerar que algunos números que no son divisibles entre 
+2, si lo son entre dos y tres, por lo cual para el pseudo-código corrijo esa parte. 	
+
+Inicia clase primos{
+
+	entero num;
+	num = valor que ingrese el usuario.
+
+	Si(numMod2 = 0){
+		Imprimir en pantalla("El número no nes primo");
+	} si no Si(numMod1 = 0 y numModnum = 0){
+		Imprimir en pantalla("El numero es primo");
+		
+	} si no Si(numMod3 = 0 && numMod7 = 0){
+		Imprimir en pantalla("El número es únicamente impar);
+	}
+ 
+}//Termina clase
